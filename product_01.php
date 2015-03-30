@@ -2,7 +2,9 @@
 <html>
 <head>
 	<title>product</title>
-	<style type="text/css" href="style.css"></style>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href='http://fonts.googleapis.com/css?family=Raleway:500' rel='stylesheet' type='text/css'>
+
 </head>
 <body>
 		<img src="img/tv1/p1.jpg">
