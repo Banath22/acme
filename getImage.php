@@ -1,19 +1,13 @@
 <?php
-include 'acmeconnect.php';
-if(isset($_GET['id']))
-{
-	$id = mysql_real_escape_string($_GET['id']);
-	$products = $mysqli->query("SELECT * FROM `products` WHERE `id` = '$id'");
-	while($row = mysql_fetch_assoc($products))
-	{		$imageData = $row["image"];
-	}
-	header("content-type: image/jpeg");
-	echo "<img src='img/tv1/" . $imageData . "'>";
+	include 'acmeconnect.php';
 
-}
-else
-{
-	echo "error";	
-}
+	$id = $_GET['id'];
 
+	$sql = "SELECT image_url FROM products WHERE id=$id";
+	$result = mysql_query("$sql");
+	$row = mysql_fetch_assoc($result);
+	mysql_close($link);
+
+	header("Content-type: image/jpeg");
+	echo $row['image_url'];
 ?>

@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -8,11 +9,14 @@
 </head>
 <body>
 	<div class="wrapper">
-	<h1>hoi</h1>
-		<img src="img/tv1/p1.jpg">
-		<img src="img/tv1/p2.jpg">
-		<img src="img/tv1/p3.jpg">
-		<img src="img/tv1/p4.jpg">
+	<h1></h1>
+	<?php
+	include 'acmeconnect.php';
+	$result = $mysqli->query("SELECT * FROM products WHERE id='".$_GET["id"]."'");
+	while ($product = $result->fetch_assoc()){
+	echo '<img src="'.$product['image_url'].'"id="productimage"">';
+	}
+	?>
 	</div>
 </body>
 </html>
