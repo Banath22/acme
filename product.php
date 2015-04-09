@@ -21,7 +21,7 @@
 	}
 
 	?>
-	<div class="buttonpos"><input type="submit" value="Terug!" class="button"></div>
+	<div class="buttonpos"><a href="index.php"><input type="submit" value="Terug!" class="button"></div></a>
 	</div>
 </body>
 </html>
