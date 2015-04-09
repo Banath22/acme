@@ -1,4 +1,3 @@
-
 <?php include 'acmeconnect.php'; ?>
 <!DOCTYPE html>
 <html>
@@ -15,7 +14,7 @@
 	<div class="wrapper">
 				<!-- tv 1 -->
 		<?php 
-		for ($i=1; $i <= 12 ; $i++) { 
+		for ($i=3; $i <= 14 ; $i++) { 
 			echo "<a href='product.php?id=$i'><img src='img/tv$i/p1.png'></a>";
 		}?>
 		

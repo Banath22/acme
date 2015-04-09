@@ -8,15 +8,20 @@
 	<link href='http://fonts.googleapis.com/css?family=Raleway:500' rel='stylesheet' type='text/css'>
 </head>
 <body>
-	<div class="wrapper">
+<div class="head">
+	<header><h1>Webshop SiCas</h1></header>
+</div>
+	<div class="productwrap">
 	<h1></h1>
 	<?php
 	include 'acmeconnect.php';
 	$result = $mysqli->query("SELECT * FROM products WHERE id='".$_GET["id"]."'");
 	while ($product = $result->fetch_assoc()){
-	echo '<img src="'.$product['image_url'].'"id="productimage"">';
+	echo '<div class="product"><img src="'.$product['image_url'].'"id="productimage""><p> '.$product['longdescription'].'</p></div>';
 	}
+
 	?>
+
 	</div>
 </body>
 </html>
