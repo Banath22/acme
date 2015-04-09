@@ -2,15 +2,9 @@
 <html>
 <head>
 	<title>product</title>
-<<<<<<< HEAD
-		<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
 	<script type="text/javascript" src="script.js"></script>
 	<link href='http://fonts.googleapis.com/css?family=Raleway:500' rel='stylesheet' type='text/css'>
-=======
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<link href='http://fonts.googleapis.com/css?family=Raleway:500' rel='stylesheet' type='text/css'>
-
->>>>>>> 1d28c156a8f462bb4f4f54dac48caeadcf142f1b
 </head>
 <body>
 	<div class="wrapper">

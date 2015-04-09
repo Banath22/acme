@@ -1,3 +1,21 @@
+<?php
+include 'acmeconnect.php';
+if(isset($_GET['id']))
+{
+	$id = mysql_real_escape_string($_GET['id']);
+	$products = $mysqli->query("SELECT * FROM `products` WHERE `id` = '$id'");
+	while($row = mysql_fetch_assoc($products))
+	{		$imageData = $row["image"];
+	}
+	header("content-type: image/jpeg");
+	echo "<img src='img/tv1/" . $imageData . "'>";
+
+}
+else
+{
+	echo "error";	
+}
+ ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -12,10 +30,8 @@
 </div>
 	<div class="wrapper">
 				<!-- tv 1 -->
-		<img src="img/tv1/p1.jpg">
-
 				<!-- tv2 -->
-		<img src="img/tv2/p1.png">
+		<img src="getimage.php?id=1">
 
 				<!-- tv3 -->
 		<img src="img/tv3/p1.png">
@@ -51,3 +67,4 @@
 	</div>
 </body>
 </html>
+
