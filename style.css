@@ -74,3 +74,18 @@ p{
 	margin-top: 9%;
 	display: inline-block;
 }
+
+button{
+	border: none;
+	border-radius: 5px;
+	padding: 10px;
+	font-size: 1.5em;
+	bottom: 50px;
+	position: absolute;
+}
+
+.buttonpos{
+	margin: 0px auto;
+	text-align: center;
+	margin-left: -5%;
+}
