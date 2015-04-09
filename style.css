@@ -75,7 +75,7 @@ p{
 	display: inline-block;
 }
 
-button{
+.button{
 	border: none;
 	border-radius: 5px;
 	padding: 10px;

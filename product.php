@@ -21,7 +21,7 @@
 	}
 
 	?>
-	<div class="buttonpos"><button>Terug!</button></div>
+	<div class="buttonpos"><input type="submit" value="Terug!" class="button"></div>
 	</div>
 </body>
 </html>
