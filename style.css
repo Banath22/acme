@@ -27,7 +27,6 @@ body{
 	width: 70%;
 	height: 100%;
 	margin: 0px auto;
-	overflow: scroll;
 	text-align: center;
 }
 
@@ -62,7 +61,7 @@ body{
     display: none; 
 }
 
-p{
+#productdesc{
 	margin-left: 8%;
 	color: white;
 	text-align: left;

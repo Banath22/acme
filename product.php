@@ -18,7 +18,7 @@
 	include 'acmeconnect.php';
 	$result = $mysqli->query("SELECT * FROM products WHERE id='".$_GET["id"]."'");
 	while ($product = $result->fetch_assoc()){
-	echo '<div class="product"><img src="'.$product['image_url'].'"id="productimage""><h3>'.$product['title'].'</h3><p> '.$product['longdescription'].'</p></div>';
+	echo '<div class="product"><img src="'.$product['image_url'].'"id="productimage""><h3>'.$product['title'].'</h3><p id="productdesc"> '.$product['longdescription'].'</p></div>';
 	}
 
 	?>
