@@ -48,10 +48,6 @@ body{
 	padding: 0.5rem;
 }
 
-.product{
-
-}
-
 .productwrap img{
 	width: 40%;
 	background-color: white;
@@ -88,4 +84,57 @@ p{
 	margin: 0px auto;
 	text-align: center;
 	margin-left: -5%;
+}
+
+#logbutton{
+	position: relative;
+	margin-left: -2%;
+	margin-top: 3%;
+}
+
+#something {
+  display: none;
+}
+
+#stuff{
+	text-decoration: none;
+	color: white;
+  	background-color: rgba(255,255,255,0.9);	
+  	width: 100px;
+  	padding: 20px;
+  	position: absolute;
+  	margin-left: 0px;
+  	margin-top: 0px;
+	text-align: center;
+}
+
+#stuff a{
+	text-decoration: none;
+	color: black;
+}
+
+#stuff img{
+	position: absolute;
+	margin-top: -4%;
+	margin-left: -25%;
+}
+
+#stuff2{
+	text-decoration: none;
+	/*background-color: black;*/
+	height: 100%;
+	color: rgb(47,200,213);
+}
+
+#something:target {
+	display: inline-block;
+	background-color: rgba(255,255,255,0.9);
+	color: black;
+	padding: 15px;
+	position: absolute;
+	margin-left: 140px;
+}
+
+#close #something:target{
+    display: none;
 }

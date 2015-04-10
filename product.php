@@ -8,6 +8,7 @@
 	<link href='http://fonts.googleapis.com/css?family=Raleway:500' rel='stylesheet' type='text/css'>
 </head>
 <body>
+	<?php include 'login.php'; ?>
 <div class="head">
 	<header><h1>Webshop SiCas</h1></header>
 </div>

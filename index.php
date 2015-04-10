@@ -8,11 +8,14 @@
 	<link href='http://fonts.googleapis.com/css?family=Raleway:500' rel='stylesheet' type='text/css'>
 </head>
 <body>
+	<?php include 'login.php'; ?>
 <div class="head">
-	<header><h1>Webshop SiCas</h1></header>
+	<header>
+		<h1>Webshop SiCas</h1>
+	</header>
 </div>
 	<div class="wrapper">
-				<!-- tv 1 -->
+
 		<?php 
 		for ($i=3; $i <= 14 ; $i++) { 
 			echo "<a href='product.php?id=$i'><img src='img/tv$i/p1.png'></a>";
