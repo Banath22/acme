@@ -22,7 +22,7 @@
 	}
 
 	?>
-	<div class="buttonpos"><a href="index.php"><input type="submit" value="Terug!" class="button"></div></a>
+	<div class="buttonpos"><a href="index.php"><input type="submit" value="Terug naar home" class="button"></div></a>
 	</div>
 </body>
 </html>

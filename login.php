@@ -14,3 +14,7 @@
 	</table>
 </tbody>
 <div id="close"></div></div>
+
+	<div id="contactpos">
+	<a class="contact" href="contact.php">Contact<img id="contactbutton" src="new100.png"></a>
+</div>
